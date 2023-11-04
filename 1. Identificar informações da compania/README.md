@@ -83,10 +83,6 @@ Contém as seguintes tabelas:
   <tr>
     <td>industry</td>
     <td>The industry that the company operates in.</td>
-  </tr>	    
-    <td>year_founded</td>	   
-    <td>The year that the company was founded.</td>
-  </tr>
 </table>	
 
 ### companies
