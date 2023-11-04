@@ -8,16 +8,68 @@ Como a empresa está interessada em tendências para os setores de melhor desemp
 
 O resultado final da sua consulta ficará assim:
 
-ano da indústria num_unicórnios média_avaliação_billions
-indústria1 2021 --- ---
-indústria1 2020 --- ---
-indústria1 2019 --- ---
-indústria2 2021 --- ---
-indústria2 2020 --- ---
-indústria2 2019 --- ---
-indústria3 2021 --- ---
-indústria3 2020 --- ---
-indústria3 2019 --- ---
+<table>
+  <tr>
+    <th>industry</th>
+    <th>year</th>
+    <th>num_unicorns</th>
+    <th>average_valuation_billions</th>
+  </tr>
+  <tr>
+    <td>industry1</td>
+    <td>2021</td>
+    <td>---</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td>industry1</td>
+    <td>2020</td>
+    <td>---</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td>industry1</td>
+    <td>2019</td>
+    <td>---</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td>industry2</td>
+    <td>2021</td>
+    <td>---</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td>industry2</td>
+    <td>2020</td>
+    <td>---</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td>industry2</td>
+    <td>2019</td>
+    <td>---</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td>industry3</td>
+    <td>2021</td>
+    <td>---</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td>industry3</td>
+    <td>2020</td>
+    <td>---</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td>industry3</td>
+    <td>2019</td>
+    <td>---</td>
+    <td>---</td>
+  </tr>
+</table>
 
 Onde indústria1, indústria2 e indústria3 são as três indústrias de melhor desempenho.
 
