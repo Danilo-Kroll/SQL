@@ -34,14 +34,15 @@ Contém as seguintes tabelas:
   </tr>
   <tr>
     <td>company_id</td>
+    <td>A unique ID for the company.</td> 
+  </tr>
+  <tr>
     <td>date_joined</td>
-    <td>year_founded</td>
-   </tr>
-   <tr>
-    <td>A unique ID for the company.</td>
     <td>The date that the company became a unicorn.</td>
+  </tr>	    
+    <td>year_founded</td>	   
     <td>The year that the company was founded.</td>
-   </tr>
+  </tr>
 </table>	
 	
 	
