@@ -1,8 +1,8 @@
 ## Objetivo do projeto
 
-A primeira tarefa é identificar as três indústrias com melhor desempenho com base no número de novos unicórnios criados nos últimos três anos (2019, 2020 e 2021) combinados.
+A primeira tarefa é identificar as três indústrias com melhor desempenho com base no número de novos unicórnios criados nos últimos três anos (2019, 2020 e 2021) combinados (exercicio1.sql).
 
-A partir daí, escreverá uma consulta para retornar o setor, o ano, o número de empresas nesses setores que se tornaram unicórnios a cada ano em 2019, 2020 e 2021, juntamente com a avaliação média por setor por ano, convertida em bilhões de dólares. dólares e arredondado para duas casas decimais!
+A partir daí, escreverá uma consulta para retornar o setor, o ano, o número de empresas nesses setores que se tornaram unicórnios a cada ano em 2019, 2020 e 2021, juntamente com a avaliação média por setor por ano, convertida em bilhões de dólares. dólares e arredondado para duas casas decimais (exercicio2.sql)!
 
 Como a empresa está interessada em tendências para os setores de melhor desempenho, seus resultados devem ser exibidos por setor e, em seguida, por ano, em ordem decrescente.
 
