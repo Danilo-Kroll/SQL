@@ -29,8 +29,8 @@ Contém as seguintes tabelas:
 
 <table>
   <tr>
-    <th>Column</tr>
-    <th>Description</tr>	
+    <th>Column</th>
+    <th>Description</th>	
   </tr>
   <tr>
     <td>company_id</td>
@@ -49,8 +49,8 @@ Contém as seguintes tabelas:
 
  <table>
   <tr>
-    <th>Column</tr>
-    <th>Description</tr>	
+    <th>Column</th>
+    <th>Description</th>	
   </tr>
   <tr>
     <td>company_id</td>
@@ -73,8 +73,8 @@ Contém as seguintes tabelas:
 
 <table>
   <tr>
-    <th>Column</tr>
-    <th>Description</tr>	
+    <th>Column</th>
+    <th>Description</th>	
   </tr>
   <tr>
     <td>company_id</td>
@@ -93,8 +93,8 @@ Contém as seguintes tabelas:
 
  <table>
   <tr>
-    <th>Column</tr>
-    <th>Description</tr>	
+    <th>Column</th>
+    <th>Description</th>	
   </tr>
   <tr>
     <td>company_id</td>
