@@ -1,6 +1,6 @@
 ## Objetivo do projeto
 
-A tarefa é primeiro identificar as três indústrias com melhor desempenho com base no número de novos unicórnios criados nos últimos três anos (2019, 2020 e 2021) combinados.
+A primeira tarefa é identificar as três indústrias com melhor desempenho com base no número de novos unicórnios criados nos últimos três anos (2019, 2020 e 2021) combinados.
 
 A partir daí, escreverá uma consulta para retornar o setor, o ano, o número de empresas nesses setores que se tornaram unicórnios a cada ano em 2019, 2020 e 2021, juntamente com a avaliação média por setor por ano, convertida em bilhões de dólares. dólares e arredondado para duas casas decimais!
 
