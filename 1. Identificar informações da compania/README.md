@@ -1,39 +1,71 @@
 ## Objetivo do projeto
 
-O objetivo desse projeto é encontrar os partidos que mais gastaram no ano de 2022 em relação as 3 despesas abaixo:
+A tarefa é primeiro identificar as três indústrias com melhor desempenho com base no número de novos unicórnios criados nos últimos três anos (2019, 2020 e 2021) combinados.
 
-1. COMBUSTIVEIS E LUBRIFICANTES
-2. DIVULGACAO DA ATIVIDADE PARLAMENTAR	TOTAL
-3. TELEFONIA
+A partir daí, escreverá uma consulta para retornar o setor, o ano, o número de empresas nesses setores que se tornaram unicórnios a cada ano em 2019, 2020 e 2021, juntamente com a avaliação média por setor por ano, convertida em bilhões de dólares. dólares e arredondado para duas casas decimais!
 
-Vale resaltar que a quantidade de políticos por partido varia, então dessa forma, iremos analisar o gasto médio por político de cada partido (despesas total do partido / total de políticos).
+Como a empresa está interessada em tendências para os setores de melhor desempenho, seus resultados devem ser exibidos por setor e, em seguida, por ano, em ordem decrescente.
 
-No final iremos responder utilizando a "clusterização" qual grupo de partidos tiveram o maior gasto em 2022.
+O resultado final da sua consulta ficará assim:
 
-## Método aplicado
+ano da indústria num_unicórnios média_avaliação_billions
+indústria1 2021 --- ---
+indústria1 2020 --- ---
+indústria1 2019 --- ---
+indústria2 2021 --- ---
+indústria2 2020 --- ---
+indústria2 2019 --- ---
+indústria3 2021 --- ---
+indústria3 2020 --- ---
+indústria3 2019 --- ---
 
-K-Means
+Onde indústria1, indústria2 e indústria3 são as três indústrias de melhor desempenho.
 
-## Etapas do projeto
+## Datasets
 
-1) Tratamento dos dados
- - Download do arquivo no site <a href="https://dadosabertos.camara.leg.br/swagger/api.html#staticfile">*dados abertos*</a>
- - Consolidação dos valores gastos por partido
- - Média de gastos por partido (despesas total do partido / total de políticos)
+Contém as seguintes tabelas:
 
-arquivo consolidado para o estudo: gastos-2022.csv (em anexo).
+## dates
 
+<table>
+  <tr>
+    <tr>Column</tr>
+    <tr>Description</tr>	
+  </tr>
+  <tr>
+    <td>company_id</td>
+    <td>date_joined</td>
+    <td>year_founded</td>
+   </tr>
+   <tr>
+    <td>A unique ID for the company.</td>
+    <td>The date that the company became a unicorn.</td>
+    <td>The year that the company was founded.</td>
+   </tr>
+</table>	
+	
+	
 
-2) Aplicação na linguagem R
- - Importação das bibliotecas
- - Importação dos dados
- - Método Elbow para identificar a quantidade ideal de *clusters*
- - Método K-Means para agrupar os partidos
- - Resultados Preliminar
+## funding
 
+Column	Description
+company_id	A unique ID for the company.
+valuation	Company value in US dollars.
+funding	The amount of funding raised in US dollars.
+select_investors	A list of key investors in the company.
 
-3) Conclusão
- - Resultado analisado pelo cientista de dados
- - Resultado disponibilizado no Power BI para a comunidade tirar suas próprias concluções. <a href="https://app.powerbi.com/view?r=eyJrIjoiNWI4ZjQ0MzMtY2Q2MS00M2E3LTllMDQtYTViYTE1MTZiMmI5IiwidCI6ImM1MWE2OGQ1LTgwNGItNGZhYi05YTJjLTBiNmI2ODU2NmJhOCJ9" target="_blank">Clique aqui</a>.
+## industries
 
-arquivo final com a coluna dos cluster gerados usado no Power BI: gastos-2022-cluster.csv (em anexo).
+Column	Description
+company_id	A unique ID for the company.
+industry	The industry that the company operates in.
+
+### companies
+
+Column	Description
+company_id	A unique ID for the company.
+company	The name of the company.
+city	The city where the company is headquartered.
+country	The country where the company is headquartered.
+continent	The continent where the company is headquartered.
+
