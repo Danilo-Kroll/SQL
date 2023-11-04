@@ -29,8 +29,8 @@ Contém as seguintes tabelas:
 
 <table>
   <tr>
-    <tr>Column</tr>
-    <tr>Description</tr>	
+    <th>Column</tr>
+    <th>Description</tr>	
   </tr>
   <tr>
     <td>company_id</td>
@@ -44,29 +44,79 @@ Contém as seguintes tabelas:
     <td>The year that the company was founded.</td>
   </tr>
 </table>	
-	
-	
 
 ## funding
 
-Column	Description
-company_id	A unique ID for the company.
-valuation	Company value in US dollars.
-funding	The amount of funding raised in US dollars.
-select_investors	A list of key investors in the company.
+ <table>
+  <tr>
+    <th>Column</tr>
+    <th>Description</tr>	
+  </tr>
+  <tr>
+    <td>company_id</td>
+    <td>A unique ID for the company.</td> 
+  </tr>
+  <tr>
+    <td>valuation</td>
+    <td>Company value in US dollars.</td>
+  </tr>	    
+    <td>funding</td>	   
+    <td>The amount of funding raised in US dollars.</td>
+  </tr>
+  </tr>	    
+    <td>select_investors</td>	   
+    <td>A list of key investors in the company.</td>
+  </tr>
+</table>
 
 ## industries
 
-Column	Description
-company_id	A unique ID for the company.
-industry	The industry that the company operates in.
+<table>
+  <tr>
+    <th>Column</tr>
+    <th>Description</tr>	
+  </tr>
+  <tr>
+    <td>company_id</td>
+    <td>A unique ID for the company.</td> 
+  </tr>
+  <tr>
+    <td>industry</td>
+    <td>The industry that the company operates in.</td>
+  </tr>	    
+    <td>year_founded</td>	   
+    <td>The year that the company was founded.</td>
+  </tr>
+</table>	
 
 ### companies
 
-Column	Description
-company_id	A unique ID for the company.
-company	The name of the company.
-city	The city where the company is headquartered.
-country	The country where the company is headquartered.
-continent	The continent where the company is headquartered.
+ <table>
+  <tr>
+    <th>Column</tr>
+    <th>Description</tr>	
+  </tr>
+  <tr>
+    <td>company_id</td>
+    <td>A unique ID for the company.</td> 
+  </tr>
+  <tr>
+    <td>company</td>
+    <td>The name of the company.</td>
+  </tr>	    
+    <td>city</td>	   
+    <td>The city where the company is headquartered.</td>
+  </tr>
+  </tr>	    
+    <td>country</td>	   
+    <td>The country where the company is headquartered.</td>
+  </tr>
+  </tr>	    
+    <td>continent</td>	   
+    <td>The continent where the company is headquartered.</td>
+  </tr>
+</table>
+	
+	
+	
 
