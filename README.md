@@ -1,6 +1,6 @@
 # SQL
 
-Nesse repositório comandos de SQL aplicados em exercícios, testes em entrevistas entre outros.
+Nesse repositório contém comandos de SQL aplicados em exercícios, testes em entrevistas entre outros.
 
 ## Projetos
 
